@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FamilyQuest — Delete your account and data</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 4rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a; background: #fff;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .35rem; }
+  h2 { font-size: 1.2rem; margin: 2.2rem 0 .6rem; }
+  .meta { color: #666; margin: 0 0 2rem; font-size: .95rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+  th, td { border: 1px solid #ddd; padding: .55rem .7rem; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  .wrap { overflow-x: auto; }
+  ol, ul { padding-left: 1.4rem; }
+  li { margin: .3rem 0; }
+  a { color: #0b62d6; }
+  code { background: #f2f2f2; padding: .1rem .3rem; border-radius: 3px; font-size: .92em; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e5e5e5; color: #666; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8e8; background: #121212; }
+    .meta, footer { color: #a0a0a0; }
+    th, td { border-color: #333; }
+    th { background: #1d1d1d; }
+    code { background: #1f1f1f; }
+    a { color: #6fb3ff; }
+    footer { border-top-color: #2a2a2a; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Delete your FamilyQuest account and data</h1>
+<p class="meta">App: <strong>FamilyQuest</strong> (<code>com.zammit.familyquest</code>) · Developer: Ludovic Zammit
+(Zammit Apps) · Last updated: 29 July 2026</p>
+
+<p>You can delete your FamilyQuest data yourself from inside the app, or ask us to delete
+it for you. Both routes are described below. You do not need an account to read this page.</p>
+
+<h2>Option 1 — delete data in the app</h2>
+<p>Deleting a family member removes that member and everything recorded about them:</p>
+<ol>
+  <li>Open FamilyQuest and tap the family member you want to remove.</li>
+  <li>Open the member’s edit screen and choose <strong>Delete</strong>.</li>
+  <li>Repeat for each member. This deletes their goals, daily check-offs and ratings,
+      excused days, weekly results and any memory photos.</li>
+</ol>
+<p>To stop syncing on a device without deleting anything, open <strong>Family Sync</strong>
+(the cloud icon at the top-left of the family screen) and tap <strong>Sign out</strong>.</p>
+
+<h2>Option 2 — ask us to delete everything</h2>
+<p>Email <strong><a href="mailto:familyquestapp9@gmail.com?subject=FamilyQuest%20deletion%20request">familyquestapp9@gmail.com</a></strong>
+from the Google account you signed in with, with the subject
+<strong>“FamilyQuest deletion request”</strong>. We will delete your account and the whole
+family’s data. No other information is needed — sending the request from the signed-in
+address is how we identify the account.</p>
+<p>Requests are actioned within <strong>30 days</strong>, normally much sooner, and we reply
+to confirm once it is done.</p>
+
+<h2>What gets deleted, and what is kept</h2>
+<div class="wrap">
+<table>
+  <thead><tr><th>Data</th><th>On a deletion request</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Family members’ names, birthdays, avatars and photos</td>
+      <td>Deleted permanently</td>
+    </tr>
+    <tr>
+      <td>Goals, daily check-offs, ratings, excused days, weekly results, memory photos</td>
+      <td>Deleted permanently</td>
+    </tr>
+    <tr>
+      <td>Family settings (reward thresholds, theme, language, vacation mode)</td>
+      <td>Deleted permanently</td>
+    </tr>
+    <tr>
+      <td>Your sign-in account (Firebase Authentication record: account user ID and the
+          email address from Google Sign-In)</td>
+      <td>Deleted permanently — the account itself is removed, not just its contents</td>
+    </tr>
+    <tr>
+      <td>Nothing is retained for advertising, analytics or profiling</td>
+      <td>The app has no ads, analytics or tracking SDKs, so no such data exists</td>
+    </tr>
+    <tr>
+      <td>Backups held by our backend provider (Google Firebase)</td>
+      <td>Removed as those backups age out, within <strong>90 days</strong> of the deletion</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Deleting your Google account from FamilyQuest does not affect your Google account itself,
+which is managed by Google.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:familyquestapp9@gmail.com">familyquestapp9@gmail.com</a> ·
+See also the <a href="./">FamilyQuest privacy policy</a>.</p>
+
+<footer>FamilyQuest · Android app <code>com.zammit.familyquest</code></footer>
+
+</body>
+</html>
